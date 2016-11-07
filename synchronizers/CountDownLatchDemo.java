@@ -43,6 +43,7 @@ class MatrixCountDown {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		executorService.shutdown();
 		return result;
 	}
 }
